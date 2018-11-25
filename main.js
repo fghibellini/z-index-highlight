@@ -1,4 +1,11 @@
 
+// highlightZIndexCtxs()
+// ---------------------
+// finds scans all the stylesheets applied to the document
+// and finds the rules that set the CSS property z-index.
+// It then highlights all the elements affected by those
+// rules and displays the z-index number on top of the element.
+
 const concatAll = xxs => [].concat(...xxs);
 
 const zIndexSelectors = (document) => {
